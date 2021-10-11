@@ -6,6 +6,10 @@ A simple todo list application for keeping track of daily tasks.
 
 I began this project to improve my typescript and webpack knowledge.
 
+## Screenshot
+
+[![Todo List App with Typescript and Webpack](imgs/todo.png "Todo List App")]()
+
 ## URL
 
 [Todo List App with Typescript and Webpack](https://xenodochial-yonath-0a3f4f.netlify.app)
@@ -26,6 +30,7 @@ npm install
 2. CSS3
 3. Bootstrap 4
 4. Typescript
+5. Webpack
 
 ## Contributing
 
