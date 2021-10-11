@@ -8,7 +8,7 @@ I began this project to improve my typescript and webpack knowledge.
 
 ## URL
 
-[Todo List App with Typescript and Webpack](https://fierce-anchorage-76525.herokuapp.com)
+[Todo List App with Typescript and Webpack](https://xenodochial-yonath-0a3f4f.netlify.app)
 
 ## Installation
 
