@@ -10,13 +10,30 @@
       crossorigin="anonymous"
     />
 
+    <style>
+      .container {
+        max-width: 400px;
+      }
+
+      .todos li {
+        background: #fff;
+      }
+      .delete {
+        cursor: pointer;
+      }
+
+      .filtered {
+        display: none !important;
+      }
+    </style>
+
     <!-- font awesome icons -->
     <script
       src="https://kit.fontawesome.com/c828cc6e39.js"
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
     <title>Todo List</title>
   </head>
   <body class="bg-light">
@@ -42,7 +59,7 @@
             align-items-center
           "
         >
-          <span>play mariokart</span>
+          <span>Learn Typescript with webpack</span>
           <i class="far fa-trash-alt delete"></i>
         </li>
         <li
@@ -53,7 +70,7 @@
             align-items-center
           "
         >
-          <span>defeat ganon in zelda</span>
+          <span>Write a blog on customizing bootstrap with SASS</span>
           <i class="far fa-trash-alt delete"></i>
         </li>
         <li
@@ -64,17 +81,20 @@
             align-items-center
           "
         >
-          <span>make a veggie pie</span>
+          <span
+            >Write a blog on how create flask based API with deployment to
+            Heroku</span
+          >
           <i class="far fa-trash-alt delete"></i>
         </li>
       </ul>
 
       <form class="add text-center my-4">
-        <label class="text-light">Add a new todo...</label>
+        <label class="text-dark">Add a new todo...</label>
         <input class="form-control m-auto" type="text" name="add" />
       </form>
     </div>
 
-    <script src="app.js"></script>
+    <script src="bundle.js"></script>
   </body>
 </html>
